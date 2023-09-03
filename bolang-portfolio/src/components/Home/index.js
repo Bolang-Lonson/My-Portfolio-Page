@@ -3,6 +3,7 @@ import LogoTitle1 from '../../assets/images/logo-b.png'
 import LogoTitle2 from '../../assets/images/logo-l.png'
 import './index.scss'
 import Logo from './Logo';
+import { Loader } from 'react-loaders';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 
@@ -19,6 +20,7 @@ const Home = () => {
     }, []);
 
     return (
+        <>
         <div className="container home-page">
           <div className="text-zone">
             <h1>
@@ -39,6 +41,8 @@ const Home = () => {
           </div>
         <Logo/>
         </div>
+        <Loader type='pacman'/>
+        </>
     )
 }
 
