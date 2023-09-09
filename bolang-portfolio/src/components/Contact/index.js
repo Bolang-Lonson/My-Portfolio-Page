@@ -8,6 +8,7 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const refForm = useRef();
+    const pos = [3.9135448, 11.4391065];
 
     useEffect(() => {
         setTimeout(() => {
@@ -82,9 +83,9 @@ const Contact = () => {
                 <span>bbeinyoh12@gmail.com</span>
             </div>
             <div className='map-wrap'>
-                <MapContainer center={[3.9135448, 11.4391065]} zoom={13}>
-                    <TileLayer url='https://{s}.title.openstreetmap.org/{z}/{x}/{y}.png'/>
-                    <Marker position={[3.9135448, 11.4391065]}>
+                <MapContainer center={pos} zoom={13}>
+                    <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'/>
+                    <Marker position={pos}>
                         <Popup>Where you can find me, send me a request</Popup>
                     </Marker>
                 </MapContainer>
