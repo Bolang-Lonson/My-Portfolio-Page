@@ -71,6 +71,15 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
+            <div className='info-map'>
+                Bolang-Lonson,
+                <br/>
+                Cameroon,
+                <br/>
+                Elig Effa, Melen <br/>
+                Yaounde <br/>
+                <span>bbeinyoh12@gmail.com</span>
+            </div>
         </div>
         <Loader type='pacman'/>
         </>
