@@ -1,5 +1,5 @@
 import './index.scss'
-import LogoBL from '../../../assets/images/logo-s.png'
+import LogoBL from '../../../assets/images/BolangPic.jpg'
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap-trial'
 import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
