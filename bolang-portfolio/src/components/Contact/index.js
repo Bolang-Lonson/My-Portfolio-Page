@@ -8,7 +8,7 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const refForm = useRef();
-    const pos = [3.9135448, 11.4391065];
+    const pos = [3.8708030, 11.5207314];
 
     useEffect(() => {
         setTimeout(() => {
