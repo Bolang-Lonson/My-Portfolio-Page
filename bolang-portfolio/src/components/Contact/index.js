@@ -8,7 +8,7 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const refForm = useRef();
-    const pos = [3.8708030, 11.5207314];
+    const pos = [51.42663528481103, 0.001228297797732351];
 
     useEffect(() => {
         setTimeout(() => {
@@ -76,10 +76,10 @@ const Contact = () => {
             <div className='info-map'>
                 Bolang-Lonson,
                 <br/>
-                Cameroon,
+                United Kingdom,
                 <br/>
-                Elig Effa, Melen <br/>
-                Yaounde <br/>
+                Bromley <br/>
+                Greater London <br/>
                 <span>bbeinyoh12@gmail.com</span>
             </div>
             <div className='map-wrap'>
